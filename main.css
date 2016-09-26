@@ -33,10 +33,8 @@ header p {
   align-items: center;
   background-image: url('https://static.pexels.com/photos/1204/nature-blur-tree-green.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-    background-attachment: fixed;
   color: #ffffff;
-  height: 2290px;
+  height: 2390px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
