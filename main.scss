@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+//Add variables here:
+$translucent-white: rgba(255,255,255,0.3);
+$icon-square-length: 300px; 
+ $standard-border: 4px solid black;
+
+h1 {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+.banner2 {
+  
+}
+.banner {
+  
+  border : {top: 4px solid black; 
+  bottom: 4px solid black; 
+  }
+  .slogan {
+    background-color : $translucent-white;
+    position:absolute;
+    border: 4px solid black; 
+    top : 200px; 
+    left: 25%;
+    width: 50%; 
+    height: 200px; 
+    text-align: center; 
+    span {font-size: 24px; 
+    line-height: 200px; }
+  }
+  font-family: 'Pacifico', cursive;
+  height: 400px;
+  background-image: url("https://pbs.twimg.com/profile_banners/928985435971510272/1514778210/1500x500")
+}
+
+.container {
+  .icon {display: inline-block; 
+  margin: 2%; 
+  border: 8px solid black; 
+  font-size: 32px; 
+    width: $icon-square-length; 
+height: $icon-square-length;
+  }
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
